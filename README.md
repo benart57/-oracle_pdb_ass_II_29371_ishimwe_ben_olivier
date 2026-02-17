@@ -92,6 +92,18 @@ CREATE USER ben_plsqlauca_29371 IDENTIFIED BY mypassword;
 -- Step 6: Grant necessary privileges
 GRANT CONNECT, RESOURCE TO ben_plsqlauca_29371;
 ```
+## screenshots
+**PDB Creation Command:**
+
+![PDB Creation](screenshots/pluggabble_dba.png)
+
+**PDB Open State:**
+
+![PDB Open State](screenshots/Alter_temp_db.png)
+
+**User Created:**
+
+![User Created](screenshots/verification.png)
 
 ## screenshots
 **PDB Creation Command:**
@@ -147,6 +159,24 @@ DROP PLUGGABLE DATABASE bn_to_delete_pdb_29371 INCLUDING DATAFILES;
 -- Step 7: Confirm it no longer exists
 SELECT name, open_mode FROM v$pdbs;
 ```
+## screenshots
+**Temporary db created:**
+
+![PDB Temp Creation](screenshots/create_temp.png)
+
+**DB verification:**
+
+![PDB verify](screenshots/select_db.png)
+
+
+**DB close:**
+
+![PDB verify](screenshots/close_pluggable_db.png)
+
+**Drop Database:**
+
+![Drop db](screenshots/drop_altered_db.png)
+
 
 
 ## screenshots
@@ -185,6 +215,9 @@ Oracle Enterprise Manager (OEM) was accessed and configured. The dashboard refle
 - **Access URL:** `https://localhost:5500/em`
 - **Monitored Database:** ORCL (CDB)
 - **Visible PDBs:** `bn_pdb_29371` and other system PDBs
+
+## OEM dashbard screenshot
+![oem dashboard](screenshots/OEM_Dashboard.png)
 
 ### Results
 ✓ OEM successfully accessed and configured  
