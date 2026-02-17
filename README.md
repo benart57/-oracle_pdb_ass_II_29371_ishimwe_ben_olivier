@@ -218,7 +218,7 @@ Oracle Enterprise Manager (OEM) was accessed and configured. The dashboard refle
 
 **OEM Dashbord:**
 
-![PDB Temp Creation](screenshots/create_temp.png)
+![PDB Temp Creation](screenshots/OEM_Dashboard.PNG)
 
 ### Results
 ✓ OEM successfully accessed and configured  
