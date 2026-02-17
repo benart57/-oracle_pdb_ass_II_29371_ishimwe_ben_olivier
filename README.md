@@ -92,24 +92,18 @@ CREATE USER ben_plsqlauca_29371 IDENTIFIED BY mypassword;
 -- Step 6: Grant necessary privileges
 GRANT CONNECT, RESOURCE TO ben_plsqlauca_29371;
 ```
-
 ## screenshots
-**Temporary db created:**
+**PDB Creation Command:**
 
-![PDB Temp Creation](screenshots/create_temp.png)
+![PDB Creation](screenshots/pluggabble_dba.png)
 
-**DB verification:**
+**PDB Open State:**
 
-![PDB verify](screenshots/select_db.png)
+![PDB Open State](screenshots/Alter_temp_db.png)
 
+**User Created:**
 
-**DB close:**
-
-![PDB verify](screenshots/close_pluggable_db.png)
-
-**Drop Database:**
-
-![Drop db](screenshots/drop_altered_db.png)
+![User Created](screenshots/verification.png)
 
 ### Results
 ✓ PDB `bn_pdb_29371` successfully created  
@@ -151,6 +145,24 @@ DROP PLUGGABLE DATABASE bn_to_delete_pdb_29371 INCLUDING DATAFILES;
 -- Step 7: Confirm it no longer exists
 SELECT name, open_mode FROM v$pdbs;
 ```
+## screenshots
+**Temporary db created:**
+
+![PDB Temp Creation](screenshots/create_temp.png)
+
+**DB verification:**
+
+![PDB verify](screenshots/select_db.png)
+
+
+**DB close:**
+
+![PDB verify](screenshots/close_pluggable_db.png)
+
+**Drop Database:**
+
+![Drop db](screenshots/drop_altered_db.png)
+
 
 ### Results
 ✓ Temporary PDB `bn_to_delete_pdb_29371` successfully created  
