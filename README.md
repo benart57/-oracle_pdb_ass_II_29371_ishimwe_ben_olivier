@@ -93,6 +93,10 @@ CREATE USER ben_plsqlauca_29371 IDENTIFIED BY mypassword;
 GRANT CONNECT, RESOURCE TO ben_plsqlauca_29371;
 ```
 
+## screenshots
+## PDB creation command:
+![PDB Creation](screenshots/pluggabble_dba.png)
+
 ### Results
 ✓ PDB `bn_pdb_29371` successfully created  
 ✓ PDB opened and configured to auto-start  
