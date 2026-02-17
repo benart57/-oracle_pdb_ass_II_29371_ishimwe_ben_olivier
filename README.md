@@ -93,6 +93,24 @@ CREATE USER ben_plsqlauca_29371 IDENTIFIED BY mypassword;
 GRANT CONNECT, RESOURCE TO ben_plsqlauca_29371;
 ```
 
+## screenshots
+**Temporary db created:**
+
+![PDB Temp Creation](screenshots/create_temp.png)
+
+**DB verification:**
+
+![PDB verify](screenshots/select_db.png)
+
+
+**DB close:**
+
+![PDB verify](screenshots/close_pluggable_db.png)
+
+**Drop Database:**
+
+![Drop db](screenshots/drop_altered_db.png)
+
 ### Results
 ✓ PDB `bn_pdb_29371` successfully created  
 ✓ PDB opened and configured to auto-start  
