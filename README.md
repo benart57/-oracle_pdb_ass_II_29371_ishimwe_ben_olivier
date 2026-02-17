@@ -183,6 +183,9 @@ Oracle Enterprise Manager (OEM) was accessed and configured. The dashboard refle
 - **Monitored Database:** ORCL (CDB)
 - **Visible PDBs:** `bn_pdb_29371` and other system PDBs
 
+## OEM dashbard screenshot
+![oem dashboard](screenshots/OEM_Dashboard.png)
+
 ### Results
 ✓ OEM successfully accessed and configured  
 ✓ Dashboard displaying CDB and PDB status  
